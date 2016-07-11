@@ -7,7 +7,7 @@ get '/' do
     "Estamos cerrando otros desarollos, antes lo tengo que charlar con el equipo",
     "Lo vamos a hablar con manu",
     "Manu no esta",
-    "no funciona porque todavia no refrescaron los dns"
+    "No funciona porque todavía no refrescaron los dns"
   ]
   escusas << "El equipo esta de vacaciones" if Time.now.month <= 2 #si es enero/febrero
 
