@@ -15,7 +15,8 @@ class App < Sinatra::Base
       "Está en reunión",
       "WebExperto? Desconozco",
       "Estamos corriendo los últimos test",
-      "No sabría decirte, soy tercerizado"
+      "No sabría decirte, soy tercerizado",
+      "Estams actualizando el plugin de Facebook a la última versión"
     ]
     excuses << "El equipo esta de vacaciones" if Time.now.month <= 2 #si es enero/febrero
 
