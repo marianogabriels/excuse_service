@@ -7,6 +7,7 @@ get '/' do
     "Lo vamos a hablar con el gerente de tecnologia",
     "Manu no esta",
     "Hay que esperar que se propaguen los dns",
+    "No me anda el click",
     "No estoy en la máquina"
   ]
   escusas << "El equipo esta de vacaciones" if Time.now.month <= 2 #si es enero/febrero
