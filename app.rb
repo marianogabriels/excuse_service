@@ -18,7 +18,7 @@ class App < Sinatra::Base
       "No sabría decirte, soy tercerizado",
       "Estams actualizando el plugin de Facebook a la última versión"
     ]
-    excuses << "El equipo esta de vacaciones" if Time.now.month <= 2 #si es enero/febrero
+    excuses << "El equipo esta de vacaciones" if Time.now.month <= 2 #enero/febrero
 
     excuses.sample
 
